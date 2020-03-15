@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="Contact.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light mb-2 bg-info fixed-top ">
+            <a class="navbar-brand " href="#">
+                <img class="logo" src="C:\Users\Jessa\Desktop\cynophile/h.png"  alt="">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+              <div class = "col-md-3 ml-md-auto">
+                <!---<i class="fa fa-bars " aria-hidden="false"></i>-->
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav col-md-3 ml-md-auto">
+                    <a class="nav-item nav-link active" href="index2.html">Home<span class="sr-only">(current)</span></a>
+                    <a class="nav-item nav-link active" href="Places.html">Profile<span class="sr-only">(current)</span></a>
+                    <a class="nav-item nav-link active" href="Gallery.html">Gallery<span class="sr-only">(current)</span></a>
+                    <a class="nav-item nav-link active" href="About.html">About<span class="sr-only">(current)</span></a>
+                    <a class="nav-item nav-link active" href="Contact.html">Contact<span class="sr-only">(current)</span></a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <div class="jumbotron jumbotron-fluid bg-secondary">
+        <div class="container">
+          <h1 class="display-4 font-weight-bold text-xl-center"><a href="#" class="text-light">GET IN TOUCH</a></h1>
+        </div>
+      </div>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<div class="thm-container">
+         <div class="row">
+             <div class="col-md-8">
+                 <div class="contact-form-content">
+                     <div class="title">
+                         <span>Contact Me</span>
+                         <h2>Send Message</h2>
+                     </div><!-- /.title -->
+                     <form action="inc/sendemail.php" class="contact-form" novalidate="novalidate">
+                         <input type="text" name="name" placeholder="Your full name">
+                         <input type="text" name="email" placeholder="Your email address">
+                         <textarea name="message" placeholder="What you are looking for?"></textarea>
+                         <button type="submit" class="thm-btn ">Submit Now</button>
+                         <div class="form-result"></div><!-- /.form-result -->
+                     </form>
+                 </div><!-- /.contact-form-content -->
+             </div><!-- /.col-md-8 -->
+             <div class="col-md-4">
+                 <div class="contact-info text-center">
+                     <div class="title text-center">
+                        <span></span>
+                        <h2>Details</h2>
+                     </div><!-- /.title -->
+                     <div class="single-contact-info">
+                         <h3>Address</h3>
+                         <h4>MVH, Cagayan de Oro City</h4>
+                     </div><!-- /.single-contact-info -->
+                     <div class="single-contact-info">
+                         <h3>Phone</h3>
+                         <h4>Mobile: +639123456789 </h4>
+                     </div><!-- /.single-contact-info -->
+                     <div class="single-contact-info">
+                         <h3>Email</h3>
+                         <h4>sasajessa8@gmail.com </h4>
+                     </div><!-- /.single-contact-info -->
+                     <div class="single-contact-info">
+                         <h4>Follow</h4>
+                         <div class="social">
+                            <a href="#" class="fab fa-twitter hvr-pulse"></a><!--  
+                             --><a href="#" class="fab fa-instagram hvr-pulse"></a><!--  
+                             --><a href="#" class="fab fa-facebook-f hvr-pulse"></a><!--  
+                             --><a href="#" class="fab fa-youtube hvr-pulse"></a>
+                        </div><!-- /.social -->
+                     </div><!-- /.single-contact-info -->
+                 </div><!-- /.contact-info -->
+             </div><!-- /.col-md-4 -->
+         </div><!-- /.row -->
+     </div>
+
+</body>
+</body>
+</html>
